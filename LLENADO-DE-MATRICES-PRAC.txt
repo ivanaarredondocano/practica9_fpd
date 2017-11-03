@@ -1,0 +1,45 @@
+LLENADO DE MATRICES
+
+INICIO
+ m1:= ENTERO
+ m2:= ENTERO
+ r1:= ENTERO
+ c1:= ENTERO
+ r2:= ENTERO
+ c2:= ENTERO
+ cr:= ENTERO
+ cc:= ENTERO
+ r3:= ENTERO
+ c3:= ENTERO
+ j:= ENTERO 
+ s:= ENTERO 
+ m1[r1][c1]:= ENTERO
+ m2[r2][c2]:= ENTERO
+ m3[r1][c2]:= ENTERO	
+  ESCRIBIR:"Ingrese el número de renglones de la matriz 1 "
+  LEER: r1
+  ESCRIBIR:"Ingrese el número de columnas de la matriz 1 "
+  LEER: c1
+  ESCRIBIR:"Ingrese el número de renglones de la matriz 2 "
+  LEER: r2
+  ESCRIBIR:"Ingrese el número de columnas de la matriz 2 "
+  LEER: c2
+  cr:=0
+  cc:=0
+  MIENTRAS (cr<r1)
+   MIENTRAS (cc<c1)
+    ESCRIBIR:"m1[r1][c1]"
+    cc:=cc+1
+   FIN MIENTRAS
+   cc:=0
+   cr:=cr+1
+   MIENTRAS(cr<r2)
+    MIENTRAS(cc<c2)
+     ESCRIBIR:"m2[r2][c2]
+     cc:=cc+1
+    FIN MIENTRAS
+    cc:=0
+    cr=cr+1
+   FIN MIENTRAS
+  FIN MIENTRAS
+    
