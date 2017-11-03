@@ -1,0 +1,36 @@
+INICIO 
+   MIENTRAS (c1=r2)
+      j:=0
+      r3:=0
+      c3:=0
+       g:=0
+      MIENTRAS (r3<r2)
+         MIENTRAS (j<c1)
+            g:=(g+ m1[r3][j]*m2[j][c3]
+            j:= j+1
+         FIN MIENTRAS 
+         m3[cr][cc]:= g
+         g:=0
+         j:=0
+         cc:=cc+1
+         c3:=c3+1
+      FIN MIENTRAS 
+      cc:=0
+      cr:=0
+      ESCRIBE m3[cr][cc]
+      ENTER 
+      MIENTRAS (cr<r1)
+         MIENTRAS (cc<c2)
+            ESCRIBE m3[cr][cc]
+            TAB
+            cc:=cc+1
+         FIN MIENTRAS 
+         cc:=0
+         cr:=cr+1
+         ENTER
+      FIN MIENTRAS 
+   FIN MIENTRAS
+FIN
+
+
+        
